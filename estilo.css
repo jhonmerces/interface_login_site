@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ec6809;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to bottom right, rgb(255, 102, 0), orange );
+     
+}
+
+#main-section{
+    padding-top: 120px;
+}
+
+/* INICIO FORMULÁRIO */
+#form-login {
+    width: 400px;
+    height: 410px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: white;
+    -webkit-box-shadow: 3px 7px 8px -3px rgba(0, 0, 0, 0.52);
+        -moz-box-shadow: 3px 7px 8px -3px rgba(0, 0, 0, 0.52);
+        box-shadow: 3
+}
+
+legend {
+    font-weight: bold;
+    color: white;
+}
+
+img {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+input {
+    text-align: center;
+    height: 35px;
+    width: 280px;  /* 280 */
+    font-size: 13px;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.email{
+    background-image: url(Imagens/icone-usuario.png);
+    background-position: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input.senha{
+    background-image: url(Imagens/icone-cadeado.png);
+    background-position: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input.submit{
+    color: white;
+    font-weight: bold;
+    background-color: #ec6809;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input.submit:hover, .elemento-grow, .elemento-grow:hover {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(236, 92, 9);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+hr {
+    margin: 0px auto;
+    width: 250px;
+}
+
+/* FINAL FORMULÁRIO */
+
+#recuperar {
+    display: inline-block;
+    width: 200px;
+    font-size: 0.7em;
+    margin: 0px;
+    padding-bottom: 10px ;
+}
+
+.links {
+    font-size: 0.7em;
+    color: rgb(173, 173, 173);
+    margin: -10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover{
+    background: peru;
+}
+
+img.img-wpp {
+    width: 25px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+img.img-insta {
+    width: 25px;
+    padding-left: 10px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+img.img-link {
+    width: 25px;
+    padding-left: 10px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.copy {
+    margin: -22px;
+    color: gray;
+    font-size: 0.7em;
+}
+
+header {
+    background-color: #141414;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
+  header img {
+    width: 130px;
+    padding: 13px;
+  }
+
+nav {
+    background-color: #141414;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    padding: 11px 17px;
+    transition: background-color 0.3s ease;
+    
+  }
+
+  nav a:hover {
+    background-color: #fffdfd;
+    color: black;
+  }
+
+
+footer {
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 60px;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.efeito-vidro {
+    background: rgba(248, 247, 247, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(20, 20, 20, 0.37);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 0px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
